@@ -497,9 +497,10 @@ text-align: center;
 }
 
 .footer hr {
-    margin: 20px 0;
+    height: 1px;
+    margin: 20px 200px;
     border: none;
-    border-top: 1px solid var(--sub);
+    border-top: 2px solid var(--parg);
 }
 .footer-copy {
     text-align: center;
