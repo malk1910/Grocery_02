@@ -22,6 +22,10 @@ body {
     min-height: 100vh;
     font-family: 'Inter', sans-serif; 
 }
+.specail-heading{
+    text-align: center;
+    font-weight: bold;
+}
 .specail-heading > span{
     background-color: var(--main);
     color:white;
@@ -285,10 +289,7 @@ body {
     margin-top: 100px;
     background-color: var(--sub);
 }
-.blogs h1{
-    text-align: center;
-    font-weight: bold;
-}
+
 
 
 
