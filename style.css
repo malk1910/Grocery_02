@@ -22,7 +22,32 @@ body {
     min-height: 100vh;
     font-family: 'Inter', sans-serif; 
 }
+.specail-heading > span{
+    background-color: var(--main);
+    color:white;
+    padding:10px 40px;
+    position: relative;
+    display: inline-block;
+}
+.specail-heading > span::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 32px solid transparent;
+    border-right: 40px solid var(--sub);
 
+}
+.specail-heading > span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 32px solid transparent;
+    border-left: 40px solid var(--sub);
+}
 /* STYLE FOR NAVIGATION */
 
 
@@ -255,6 +280,15 @@ body {
 
 /* STYLE FOR BLOGS */
 
+.blogs{
+    position: relative;
+    margin-top: 100px;
+    background-color: var(--sub);
+}
+.blogs h1{
+    text-align: center;
+    font-weight: bold;
+}
 
 
 
