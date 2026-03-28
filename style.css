@@ -440,7 +440,6 @@ text-align: center;
     gap: 30px;
 }
 .footer .social-icons a{
-
     padding: 7px;
     font-size: 16px;
     border-radius: 5px;
@@ -457,6 +456,10 @@ text-align: center;
     transition: 0.3s;
     cursor: pointer;
   }
+  .footer .footer-col p i,
+  .footer .footer-col h3 i{
+    color:var(--main);
+  }
   .footer-col h3 {
     margin-bottom: 15px;
     font-weight: bold;
@@ -464,6 +467,7 @@ text-align: center;
 
 .footer-col p {
     line-height: 1.6;
+    color:var(--parg);
 
 }
 .footer-col input {
@@ -492,14 +496,14 @@ text-align: center;
     margin-right: 10px;
 }
 
-hr {
+.footer hr {
     margin: 20px 0;
     border: none;
     border-top: 1px solid var(--sub);
 }
 .footer-copy {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .footer-copy span {
