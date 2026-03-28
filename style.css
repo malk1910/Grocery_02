@@ -20,6 +20,80 @@ body {
     padding: 0;
     overflow-x: hidden;
     min-height: 100vh;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; 
+}
+
+/* STYLE FOR NAVIGATION */
+
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left:0;
+    padding:15px;
+    width: 100%;
+    background-color:white ;
+    box-shadow:  0 5px 20px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.nav-bar .container{
+    margin: 0 auto;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo span {
+    margin-left: 10px;
+}
+
+.logo i {
+    color: var(--main);
+}
+ .nav-bar .nav-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+   
+}
+
+.nav-bar .nav-links  a{
+    color: var(--parg);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s;
+   }
+.nav-links a:hover {
+    color:var(--main);
+}
+
+
+.nav-icons {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-icons i{
+    width:30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--sub);
     
+}
+.nav-icons i:hover {
+    color: white;
+    background-color: var(--main);
+    transition: 0.3s;
+    cursor: pointer;
 }
