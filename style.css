@@ -264,11 +264,51 @@ header img {
 
 
 /* STYLE FOR PRODUCTS */
+.products{
+    position: relative;
+    background-color: var(--sub);
+    padding: 50px 0 ;
+}
+.products .card{
+    height:400px;
+    margin-top: 30px;
+}
+.products .card-body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid var(--sub);
+    outline-offset: -10px; 
+    box-shadow: var(--shadow);
+}
+.products .card-img-top{
+    width:150px;
+    height:150px;
+    margin-top: 50px;
+}
+.products .card-title{
+    font-weight: bolder;
+    margin-top: 5px;
+    font-size:25px;
+}
+.products .card-text{
+    color:var(--parg);
+}
+.products .btn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.products .btn:hover{
+    background-color: var(--main);
+    color:white;
+    border:none;
 
-.swiper-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+}
+.products .swiper-button-next,
+.products .swiper-button-prev {
+    color:var(--main);
+    
 }
 
 
@@ -314,8 +354,8 @@ header img {
 
 .blogs{
     position: relative;
-    margin-top: 100px;
     background-color: var(--sub);
+    padding: 50px 0;
 }
 .blogs .card{
     width:350px;
