@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         prevEl: ".swiper-button-prev",
       },
       autoplay: {
-        delay: 2000,
+        delay: 1500,
         disableOnInteraction: false,
       },
       breakpoints: {
