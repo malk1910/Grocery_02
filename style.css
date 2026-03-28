@@ -265,6 +265,11 @@ header img {
 
 /* STYLE FOR PRODUCTS */
 
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 
 
@@ -311,12 +316,12 @@ header img {
     position: relative;
     margin-top: 100px;
     background-color: var(--sub);
-    gap:100px;
 }
 .blogs .card{
     width:350px;
     margin: auto;
     box-shadow: var(--shadow);   
+    padding: 10px;
 }
 .blogs .card-img-top{
     height:200px;
