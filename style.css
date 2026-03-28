@@ -13,6 +13,7 @@ html {
   --sub: #eeeeee;
   --title: black;
   --parg: #666666;
+  --shadow: 0 5px 20px rgba(0, 0, 0, 0.5)  ;
 }
 body {
   margin: 0;
@@ -245,17 +246,6 @@ header img {
 
 /* -------------------------------------- */
 
-/* STYLE FOR HOME */
-
-
-
-
-
-
-
-
-/* END STYLE FOR HOME */
-/* -------------------------------------- */
 
 
 /* STYLE FOR FEATURES */
@@ -321,9 +311,52 @@ header img {
     position: relative;
     margin-top: 100px;
     background-color: var(--sub);
+    gap:100px;
 }
-
-
-
-
- 
+.blogs .card{
+    width:350px;
+    margin: auto;
+    box-shadow: var(--shadow);   
+}
+.blogs .card-img-top{
+    height:200px;
+}
+.blogs .list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+}
+.blogs .list-group-item{
+    color:var(--parg);
+}
+.blogs .list-group-item i{
+    color:var(--main);
+}
+.blogs hr {
+    border: none;
+    height: 1px;
+    background-color: var(--parg);
+    margin: 0;
+}
+.blogs .card-title{
+    margin-top: 15px;
+    font-weight: bolder;
+    line-height: 1.6;
+}
+.blogs .card-text{
+    color:var(--parg);
+}
+.blogs .card-link{
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px 20px;
+}
+.blogs .card-link:hover{
+    color:white;
+    background-color:var(--main);
+    border: none;
+    transition: 0.3s;
+}
