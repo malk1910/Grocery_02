@@ -207,6 +207,7 @@ header {
   justify-content: space-around;
   align-items: center;
   margin-top: 10%;
+  height: 70vh;
 }
 
 header .content {
@@ -243,7 +244,7 @@ header img {
 }
 @media (max-width: 426px) {
        header{
-        margin-top: 25%;
+        margin: 25% 0;
     }
 }
 
@@ -279,6 +280,7 @@ text-align: center;
 }
 .features .container .card-hover { 
       transition: 0.3s;
+      max-width: 90%;
 }
 .features .container .card-hover:hover {
     box-shadow: none !important;
